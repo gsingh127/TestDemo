@@ -13,6 +13,7 @@ public class TeamSelectionTest {
 	
 	int foreignPlayers	= TestMethod.numberofForeignPlayers();
 	Assert.assertTrue(foreignPlayers<=4);
+	System.out.println("Pass : validateForeignPlayerLimit");
 
 
 	}
@@ -24,6 +25,7 @@ public class TeamSelectionTest {
 	
 		int wicketKeepers	= TestMethod.numberofWicketKeepers();
 		Assert.assertTrue(wicketKeepers>=1);
+		System.out.println("Pass : validateWicketKeeperAvailability");
 	
 	}
 }
